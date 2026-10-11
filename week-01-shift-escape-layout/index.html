@@ -2,12 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>week-01-shift-escape-layout</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <title>Shift Escape</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <header>
+      <div class="container">
+        <div class="left-side">
+          <a href="#hero" class="logo">Shift <span class="logo-highlight">+</span> Escape</a>
+        </div>
+        <div class="right-side">
+          <nav aria-label="Main">
+        <ul>
+          <li><a href="#hero">Start Here</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resources">Resources</a></li>
+        </ul>
+      </nav>
+          <a href="#signup" class="btn">Get the newsletter</a>
+        </div>
+      </div>
+      
+    </header>
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <h1>Remote work that actually works for you.</h1>
+        <p>Practical guides for overworked creatives and tech professionals building a more flexible life.</p>
+        <div class="action-row">
+         <a href="#guides" class="btn btn-primary">Read the latest</a>
+          <a href="#" class="btn-secondary">Start Here</a>
+        </div>
+        </div>
+        
+      </section>
+      <section id="guides">
+        <h2>Guides</h2>
+      </section>
+      <section id="signup">
+        <h2>Sign Up</h2>
+      </section>
+    </main>
+    <footer></footer>    
   </body>
 </html>
